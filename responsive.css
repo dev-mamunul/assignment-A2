@@ -1,0 +1,158 @@
+/* Extra small devices (phones, <576px) */
+@media (max-width: 575.98px) {
+
+    header{
+        border-bottom: 2px solid orange;
+    }
+
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .container_one{
+        width: 100%;
+        gap: 10px;
+        justify-content: left;
+    }
+
+    .container_one img{
+        width: 40px;
+    }
+
+    .container_one h3{
+        font-size: 21px;
+    }
+
+    .textRun{
+        width: 90%;
+        margin: auto;
+    }
+
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+
+    .menu_wrapper{
+        display: none;
+    }
+
+    .prime_btn{
+        display: none;
+    }
+
+    .cricularWrapper{
+        display: block;
+    }
+
+    .starting{
+        width: 90%;
+        margin: auto;
+        flex-direction: column-reverse;
+    }
+    
+    .title{
+        text-align: center;
+    }
+
+    .enroll_btn .enroll{
+        margin: auto;
+        margin-top: 20px;
+        font-size: 17px;
+    }
+
+    .baby_pic, .title{
+        width: 100%;
+    }
+
+    .title_h3 {
+        font-weight: bold;
+        font-size: 34px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .mobileBar{
+        display: block;
+    }
+
+    .baby_pic img {
+        width: 100%;
+    }
+
+    /* cricular activities */
+
+    .card{
+        flex-direction: column;
+    }
+
+    .card .card_item{
+        width: 80% !important;
+    }
+
+    .bold h3{
+        font-size: 34px;
+    }
+
+    /* stories section */
+
+    .cardRo{
+        display: none;
+    }
+
+    .gridWrapper{
+        grid-template-columns: auto;
+        width: 90%;
+        margin: auto;
+    }
+
+    .cardWrapper{
+        width: 100%;
+    }
+
+    /* footer section */
+
+    #footer > div{
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+
+}
+  
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    
+
+}
+
+/* Extra extra large devices (very large screens, 1400px and up) */
+@media (min-width: 1400px) {
+
+    
+
+}
